@@ -1,0 +1,92 @@
+/**
+ * Variables
+ */
+
+:root {
+  --primary-color: #f8a03f;
+  --secondary-color: #2ea8eb;
+  --font-color: #30486c;
+  --lightBlue-color: #edf8fc;
+}
+
+p {
+  color: var(--font-color) !important;
+  font-weight: lighter !important;
+}
+
+
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+}
+
+
+/**
+ * Header
+ */
+
+.header-image {
+  max-height: 85vh;
+  overflow: hidden;
+}
+
+nav.navbar.fixed .navbar-nav li a {
+  color: white !important;
+}
+
+nav.navbar.fixed.scroll .navbar-nav li a {
+  color: var(--font-color) !important;
+}
+
+.isr__hero--banner-orange {
+  margin-top: -75px;
+}
+
+.isr__hero--banner-orange > div:last-child .wpb_wrapper {
+  padding: 0 1rem;
+}
+
+.isr__hero-container {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.isr__hero-content h1 {
+  color: var(--primary-color);
+}
+
+.isr__hero-content p {
+  font-size: 1.75rem
+}
+
+
+.isr__separator--image {
+  min-height: 580px;
+}
+
+.isr__button--primary button {
+    text-transform: uppercase;
+    font-size: 1.75rem !important;
+}
+
+.isr__banner-light-blue-with-image.vc_row {
+    background-position: left !important;
+    min-height: 450px;
+}
+
+.isr__banner-meta-data {
+    padding: 6rem 0 2rem 6rem;
+}
+
+.isr__banner-meta-data h3 {
+  color: var(--font-color);
+}
+
+.isr__banner-meta-data h3:after {
+  width: 25%;
+  content: ' ';
+  display: block;
+  height: 4px;
+  background-color: var(--secondary-color);
+  margin: 1rem 0;
+}
