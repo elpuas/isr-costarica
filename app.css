@@ -7,6 +7,8 @@
   --secondary-color: #2ea8eb;
   --font-color: #30486c;
   --lightBlue-color: #edf8fc;
+  --secondary-color-lightness: #c4d8e1;
+  --footer-font-color: #8f969e;
 }
 
 p {
@@ -40,6 +42,16 @@ nav.navbar.fixed .navbar-nav li a {
 
 nav.navbar.fixed.scroll .navbar-nav li a {
   color: var(--font-color) !important;
+}
+
+nav.navbar.fixed.scroll .navbar-nav .current-menu-item a, .current-menu-item a {
+    background-color: var(--primary-color);
+    color: white !important;
+}
+
+nav.navbar.fixed.scroll #main-menu>ul>li>a:hover, nav.navbar.fixed.scroll #main-menu>ul>li>a:focus, #main-menu>ul>li>a:hover, #main-menu>ul>li>a:focus {
+  color: white !important;
+  background: var(--secondary-color) !important;
 }
 
 .isr__hero--banner-orange {
@@ -103,9 +115,9 @@ nav.navbar.fixed.scroll .navbar-nav li a {
  * Pricing Tables
  */
 
-.isr__price-tables .pricing-plans .pricing-grid .pricing-grid {
-
-}
+ .isr__price-tables {
+     margin: 3rem 0;
+ }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-value {
   padding: 1rem;
@@ -153,10 +165,6 @@ nav.navbar.fixed.scroll .navbar-nav li a {
   font-size: 2rem;
 }
 
-.isr__price-tables .pricing-plans .pricing-grids .pricing-grid h5 {
-
-}
-
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg {
   background: var(--lightBlue-color);
   margin-top:  -30px;
@@ -187,4 +195,139 @@ nav.navbar.fixed.scroll .navbar-nav li a {
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg .cart1 a {
   background: var(--primary-color);
   border-radius: 0;
+}
+
+.isr__price-tables-meta-data {
+    padding: 0;
+    text-align: center;
+    width: 45vw;
+    margin: 0 auto;
+}
+
+.isr__price-tables-meta-data.isr__banner-meta-data h3 {
+    font-size: 3.556rem;
+    font-weight: lighter !important;
+}
+
+.isr__price-tables-meta-data.isr__banner-meta-data h3:after {
+    width: 15%;
+    content: ' ';
+    display: block;
+    height: 4px;
+    background-color: var(--secondary-color-lightness);
+    margin: 1rem auto 4rem;
+}
+
+/**
+ * Blog Section
+ */
+
+.isr__blog-grid-container .vc_grid .vc_grid-item {
+
+}
+
+.isr__blog-grid-container .vc_grid .vc_grid-item .vc_grid-item-mini {
+
+}
+
+.isr__blog-grid-container .vc_grid .vc_grid-item .vc_grid-item-mini .vc_gitem-post-data-source-post_title h4 {
+  padding-top: 1rem;
+}
+
+.isr__blog-grid-container .vc_grid .vc_grid-item .vc_grid-item-mini .vc_gitem-post-data-source-post_title h4:after {
+  width: 15%;
+  content: ' ';
+  display: block;
+  height: 4px;
+  background-color: var(--secondary-color-lightness);
+  margin: 1rem 0;
+}
+
+.isr__blog-grid-container .vc_grid .vc_grid-item .vc_grid-item-mini .vc_gitem-post-data-source-post_excerpt p {
+  font-size: 14px;
+}
+
+
+
+.isr__blog-grid-container .vc_grid .vc_grid-item .vc_grid-item-mini .vc_gitem-zone {
+  background-color: transparent !important;
+}
+
+.comments-area {
+   background-color: var(--lightBlue-color) !important;
+   overflow-wrap: break-word;
+ }
+
+.isr__contact-container {
+  background-color: var(--lightBlue-color);
+  padding-top: 3rem;
+}
+
+.isr__banner-meta-data.isr__contact-meta-data h3 {
+     font-size: 3.556rem;
+     font-weight: lighter !important;
+ }
+
+.isr__banner-meta-data.isr__contact-meta-data h3:after {
+     width: 15%;
+     content: ' ';
+     display: block;
+     height: 4px;
+     background-color: var(--secondary-color-lightness);
+     margin: 1rem auto 0;
+ }
+
+ .isr__contact-meta-data {
+     padding: 0;
+     text-align: center;
+ }
+
+ /**
+  * Widget Area
+  * Footer
+  */
+.footer-widget-area {
+  background-color: #1d2d3d !important;
+}
+
+ .footer-widget-area .col-md-4 {
+    text-align: center;
+}
+
+.footer-widget-area .col-md-4 ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.footer-widget-area .col-md-4 ul li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.footer-widget-area .col-md-4:nth-child(2) {
+  border-left: 1px solid #314151;
+  border-right: 1px solid #314151;
+}
+
+.footer-widget-area .col-md-4 ul li i.fa {
+    font-size: 1.355rem;
+    color: var(--footer-font-color);
+}
+
+.footer-bottom {
+    background-color: #172737;
+}
+
+.footer-bottom .site-info p {
+  color: var(--footer-font-color) !important;
+  text-align: center;
+}
+
+.footer-bottom .site-info p a {
+  color: lightgreen !important;
+}
+
+.footer-widget-area .widget-title, .footer-widget-area .col-md-4 p {
+  color: var(--footer-font-color) !important;
 }
