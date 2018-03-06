@@ -54,6 +54,20 @@ nav.navbar.fixed.scroll #main-menu>ul>li>a:hover, nav.navbar.fixed.scroll #main-
   background: var(--secondary-color) !important;
 }
 
+nav.navbar.fixed.scroll .navbar-brand a img {
+  display: none;
+}
+
+nav.navbar.fixed.scroll .navbar-brand a {
+    text-indent: -999px;
+    background-image: url(http://localhost:8080/isrcostarica/wp-content/uploads/2018/03/logo-sm-isr-blue.png);
+    width: 192px;
+    height: 80px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .isr__hero--banner-orange {
   margin-top: -75px;
 }
@@ -226,6 +240,12 @@ nav.navbar.fixed.scroll #main-menu>ul>li>a:hover, nav.navbar.fixed.scroll #main-
 
 }
 
+.isr__blog-grid-container a.vc_gitem-link.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-flat.vc_btn3-color-juicy-pink {
+    background: orange;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
 .isr__blog-grid-container .vc_grid .vc_grid-item .vc_grid-item-mini {
 
 }
@@ -282,6 +302,25 @@ nav.navbar.fixed.scroll #main-menu>ul>li>a:hover, nav.navbar.fixed.scroll #main-
      text-align: center;
  }
 
+ /**
+  * Contact form
+  * Home
+  */
+
+
+
+.isr__contact-form form .form-control:focus {
+    border: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: solid 2px var(--font-color);
+}
+
+
+.caldera-grid .row {
+  max-width: none !important;
+}
  /**
   * Widget Area
   * Footer
