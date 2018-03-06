@@ -79,11 +79,15 @@ nav.navbar.fixed.scroll .navbar-nav li a {
 }
 
 .isr__banner-meta-data {
-    padding: 6rem 0 2rem 6rem;
+    padding: 3rem 1rem 0 4rem;
 }
 
 .isr__banner-meta-data h3 {
   color: var(--font-color);
+}
+
+.isr__banner-meta-data p {
+  font-size: 1.33rem;
 }
 
 .isr__banner-meta-data h3:after {
@@ -104,7 +108,33 @@ nav.navbar.fixed.scroll .navbar-nav li a {
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-value {
+  padding: 1rem;
+  border: none;
+  border-radius: 0;
+}
 
+.isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-value h5 {
+ padding: 0;
+ margin: 0;
+}
+
+.isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-value h5 span {
+  color: white;
+}
+
+.isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-value h5 lable {
+  color: white;
+}
+
+.isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-value .sale-box {
+  border-radius: 0;
+}
+
+.isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-value .sale-box .on_sale.title_shop {
+ background: var(--primary-color);
+ color: white;
+ text-indent: -999px;
+ padding: 1rem;
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid:first-child .price-value {
@@ -112,11 +142,11 @@ nav.navbar.fixed.scroll .navbar-nav li a {
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid:nth-child(2) .price-value {
-
+ background-color: #5ec2fe !important;
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid:last-child .price-value {
-
+  background-color: #a1ddff !important;
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid h2 a {
@@ -129,20 +159,20 @@ nav.navbar.fixed.scroll .navbar-nav li a {
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg {
   background: var(--lightBlue-color);
-
+  margin-top:  -30px;
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg ul {
   list-style: none;
+  padding-top: 2rem;
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg ul li {
-  padding: 0;
+  padding: 0 0 1rem;
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg ul li:before {
- content: none;
-
+  content: none;
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg ul li.whyt {
@@ -150,5 +180,11 @@ nav.navbar.fixed.scroll .navbar-nav li a {
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg .cart1 {
+  border: none;
+  padding: 0;
+}
 
+.isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg .cart1 a {
+  background: var(--primary-color);
+  border-radius: 0;
 }
