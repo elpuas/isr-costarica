@@ -398,7 +398,7 @@ nav.navbar.fixed.scroll .navbar-brand a {
 
  #main-menu.open {
      background-color: var(--primary-color) !important;
-     background-image: url('http://localhost:8080/isrcostarica/wp-content/uploads/2018/03/ISR_Black-White_Small.png');
+     background-image: url('/wp-content/uploads/2018/03/ISR_Black-White_Small.png');
      background-repeat: no-repeat;
      background-position: center 75vh;
      background-size: 50%;
@@ -477,7 +477,7 @@ nav.navbar.fixed.scroll .navbar-brand a {
   }
   #main-menu {
       background-color: var(--primary-color) !important;
-      background-image: url('http://localhost:8080/isrcostarica/wp-content/uploads/2018/03/ISR_Black-White_Small.png');
+      background-image: url('/wp-content/uploads/2018/03/ISR_Black-White_Small.png');
       background-repeat: no-repeat;
       background-position: center 75vh;
       background-size: 50%;
