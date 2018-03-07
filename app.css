@@ -63,7 +63,7 @@ nav.navbar.fixed.scroll .navbar-brand a img {
 
 nav.navbar.fixed.scroll .navbar-brand a {
     text-indent: -999px;
-    background-image: url('http://localhost:8080/isrcostarica/wp-content/uploads/2018/03/logo-sm-isr-blue-flag.png');
+    background-image: url('/wp-content/uploads/2018/03/logo-sm-isr-blue-flag.png');
     width: 192px;
     height: 80px;
     display: block;
