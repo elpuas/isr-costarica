@@ -22,6 +22,9 @@ h1, h2, h3, h4, h5 {
   font-weight: bold !important;
 }
 
+.main-content {
+   padding-bottom: 0 !important;
+}
 
 /**
  * Header
@@ -60,7 +63,7 @@ nav.navbar.fixed.scroll .navbar-brand a img {
 
 nav.navbar.fixed.scroll .navbar-brand a {
     text-indent: -999px;
-    background-image: url('http://www.isrcostarica.com/wp-content/uploads/2018/03/logo-sm-isr-blue.png');
+    background-image: url('http://localhost:8080/isrcostarica/wp-content/uploads/2018/03/logo-sm-isr-blue-flag.png');
     width: 192px;
     height: 80px;
     display: block;
@@ -70,6 +73,10 @@ nav.navbar.fixed.scroll .navbar-brand a {
 
 .isr__hero--banner-orange {
   margin-top: -75px;
+}
+
+.isr__hero--banner-orange p, .isr__hero--banner-orange h2, .isr__hero--banner-orange h3, .isr__hero--banner-orange h4 {
+    color: white !important;
 }
 
 .isr__hero--banner-orange > div:last-child .wpb_wrapper {
@@ -321,10 +328,23 @@ nav.navbar.fixed.scroll .navbar-brand a {
 .caldera-grid .row {
   max-width: none !important;
 }
- /**
+/**
+ * Sidebar Area
+ * Styles
+ */
+
+ .widget_media_gallery figure.gallery-item {
+     width: 46.125%;
+     display: inline-block;
+     margin: 0 10px 10px 0;
+ }
+/**
   * Widget Area
   * Footer
   */
+
+
+
 .footer-widget-area {
   background-color: #1d2d3d !important;
 }
@@ -369,4 +389,111 @@ nav.navbar.fixed.scroll .navbar-brand a {
 
 .footer-widget-area .widget-title, .footer-widget-area .col-md-4 p {
   color: var(--footer-font-color) !important;
+}
+
+/**
+ * Global Mobile
+ * Styles
+ */
+
+ #main-menu.open {
+     background-color: var(--primary-color) !important;
+     background-image: url('http://localhost:8080/isrcostarica/wp-content/uploads/2018/03/ISR_Black-White_Small.png');
+     background-repeat: no-repeat;
+     background-position: center 75vh;
+     background-size: 50%;
+ }
+
+#main-menu.open ul li a {
+  color: white !important;
+}
+
+@media screen and (max-width: 425px) {
+  .header-image .fade-in-img-inner-wrap {
+    margin-top: 0;
+  }
+
+  .isr__hero--banner-orange .vc_btn3.vc_btn3-color-white, .isr__hero--banner-orange .vc_btn3.vc_btn3-color-white.vc_btn3-style-flat {
+    width: 100% !important;
+    display: block;
+  }
+
+  .isr__hero-content h1 {
+    font-size: 1.75rem;
+  }
+
+  .isr__hero-content p {
+    font-size: 1.3rem;
+  }
+
+  .vc_btn3.vc_btn3-color-warning, .vc_btn3.vc_btn3-color-warning.vc_btn3-style-flat {
+    display: block;
+    width: 100%;
+    font-size: 1.5rem !important;
+  }
+  .isr__banner-meta-data {
+    padding: 1rem;
+  }
+  .isr__banner-light-blue-with-image {
+    background-image: none
+  }
+  .isr__banner-light-blue-with-image.vc_row {
+    background-image: none !important;
+}
+  .isr__banner-meta-data p {
+    font-size: 1.3rem;
+  }
+  .isr__price-tables-meta-data {
+    width: 100%;
+  }
+  .pricing-grid:nth-child(3) {
+    margin-right: auto !important;
+  }
+  .isr__blog-grid-container .vc_grid.vc_row.vc_grid-gutter-30px .vc_pageable-slide-wrapper {
+    margin-right: 0 !important;
+  }
+  .isr__blog-grid-container .vc_grid.vc_row.vc_grid-gutter-30px .vc_grid-item {
+    padding-right: 0 !important;
+  }
+  .isr__banner-meta-data.isr__contact-meta-data h3, .isr__price-tables-meta-data.isr__banner-meta-data h3 {
+    font-size: 3rem;
+  }
+  .navbar-brand {
+    width: 60%;
+  }
+
+  .navbar-toggle .icon-bar {
+    background-color: white !important;
+  }
+  nav.navbar.fixed.scroll .navbar-toggle .icon-bar {
+    background-color: var(--font-color) !important;
+  }
+  nav.navbar.fixed.scroll #main-menu>ul>li>a:hover, nav.navbar.fixed.scroll #main-menu>ul>li>a:focus, #main-menu>ul>li>a:hover, #main-menu>ul>li>a:focus {
+    color: white !important;
+    background: transparent !important;
+ }
+ .isr__hero--banner-orange .vc_btn3-container.vc_btn3-inline {
+    display: block;
+  }
+  #main-menu {
+      background-color: var(--primary-color) !important;
+      background-image: url('http://localhost:8080/isrcostarica/wp-content/uploads/2018/03/ISR_Black-White_Small.png');
+      background-repeat: no-repeat;
+      background-position: center 75vh;
+      background-size: 50%;
+  }
+  .search-form {
+     max-width: none !important;
+     margin-bottom: 0;
+   }
+  .search-form label .search-field {
+    max-width: none !important;
+    width: 100% !important;
+    padding: 0 0 0 15px !important;
+  }
+
+  .search-form label {
+     width: 100% !important;
+     margin-bottom: 0;
+ }
 }
