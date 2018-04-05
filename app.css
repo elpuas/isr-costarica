@@ -221,12 +221,12 @@ body.page-id-8 .navbar-brand img {
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg {
   background: var(--lightBlue-color);
   margin-top:  -30px;
-  min-height: 209px;
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg ul {
   list-style: none;
   padding-top: 2rem;
+  min-height: 209px;
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg ul li {
