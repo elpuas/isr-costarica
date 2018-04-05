@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5 {
    padding-bottom: 0 !important;
 }
 
+.isr_video {
+    margin-top: -60px;
+}
+
 /**
  * Header
  */
@@ -74,6 +78,8 @@ nav.navbar.fixed.scroll .navbar-brand a {
 body.page-id-8 .header-image img {
   margin-top: 10vh;
 }
+
+
 
 /**
  * ISR HERO
@@ -215,6 +221,7 @@ body.page-id-8 .navbar-brand img {
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg {
   background: var(--lightBlue-color);
   margin-top:  -30px;
+  min-height: 209px;
 }
 
 .isr__price-tables .pricing-plans .pricing-grids .pricing-grid .price-bg ul {
