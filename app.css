@@ -450,6 +450,10 @@ body.page-id-8 .navbar-brand img {
     margin-top: 0;
   }
 
+  .isr_video {
+    margin-top: initial !important;
+  }
+
   body.page-id-8 .header-image img {
     margin-top: 0;
 }
