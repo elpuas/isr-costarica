@@ -446,6 +446,18 @@ body.page-id-8 .navbar-brand img {
     margin-top: 0;
   }
 
+  body.page-id-8 .header-image img {
+    margin-top: 0;
+}
+
+body.page-id-8 .navbar-brand img {
+    position: initial;
+    top: 0;
+    left: 0;
+    width: 167%;
+    height: auto;
+}
+
   .isr__hero--banner-orange .vc_btn3.vc_btn3-color-white, .isr__hero--banner-orange .vc_btn3.vc_btn3-color-white.vc_btn3-style-flat {
     width: 100% !important;
     display: block;
