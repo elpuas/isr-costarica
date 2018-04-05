@@ -454,7 +454,7 @@ body.page-id-8 .navbar-brand img {
     margin-top: 0;
 }
 
-.navbar-brand img {
+body.page-id-8 .navbar-brand img, .navbar-brand img {
     position: initial;
     top: 0;
     left: 0;
