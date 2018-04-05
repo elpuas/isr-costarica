@@ -71,6 +71,11 @@ nav.navbar.fixed.scroll .navbar-brand a {
     background-repeat: no-repeat;
 }
 
+/**
+ * ISR HERO
+ * @type {[CSS]}
+ */
+
 .isr__hero--banner-orange {
   margin-top: -75px;
 }
@@ -94,6 +99,23 @@ nav.navbar.fixed.scroll .navbar-brand a {
 
 .isr__hero-content p {
   font-size: 1.75rem
+}
+
+.isr__hero-title p {
+    font-size: 1.875rem;
+}
+
+.isr__hero-cta .vc_btn3.vc_btn3-color-white, .vc_btn3.vc_btn3-color-white.vc_btn3-style-flat {
+    font-size: 1.25rem;
+}
+
+    /* Homepage logo change page-id to home when live */
+
+body.page-id-8 .navbar-brand img {
+    max-width: initial !important;
+    position: absolute;
+    top: 16vh;
+    left: 10vw;
 }
 
 
