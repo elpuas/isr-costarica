@@ -441,6 +441,10 @@ body.page-id-8 .navbar-brand img {
   color: white !important;
 }
 
+.scroll .navbar-wrapper.clearfix {
+    box-shadow: 0 0 2px rgba(0,0,0,.5);
+}
+
 @media screen and (max-width: 425px) {
   .header-image .fade-in-img-inner-wrap {
     margin-top: 0;
@@ -450,7 +454,7 @@ body.page-id-8 .navbar-brand img {
     margin-top: 0;
 }
 
-body.page-id-8 .navbar-brand img {
+.navbar-brand img {
     position: initial;
     top: 0;
     left: 0;
