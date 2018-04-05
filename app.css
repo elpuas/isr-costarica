@@ -71,6 +71,10 @@ nav.navbar.fixed.scroll .navbar-brand a {
     background-repeat: no-repeat;
 }
 
+body.page-id-8 .header-image img {
+  margin-top: 10vh;
+}
+
 /**
  * ISR HERO
  * @type {[CSS]}
@@ -114,7 +118,7 @@ nav.navbar.fixed.scroll .navbar-brand a {
 body.page-id-8 .navbar-brand img {
     max-width: initial !important;
     position: absolute;
-    top: 16vh;
+    top: 5vh;
     left: 10vw;
 }
 
