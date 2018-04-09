@@ -441,7 +441,7 @@ body.page-id-8 .navbar-brand img {
   color: white !important;
 }
 
-.scroll .navbar-wrapper.clearfix {
+.scroll {
     box-shadow: 0 0 2px rgba(0,0,0,.5);
 }
 
@@ -452,6 +452,10 @@ body.page-id-8 .navbar-brand img {
 
   .isr_video {
     margin-top: initial !important;
+  }
+
+  .isr__separator--image {
+    min-height: 360px;
   }
 
   body.page-id-8 .header-image img {
