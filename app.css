@@ -450,12 +450,16 @@ body.page-id-8 .navbar-brand img {
     margin-top: 0;
   }
 
-  .isr_video {
+  .page-id-132  .isr_video {
+    margin-top: 0 !important;
+  }
+
+.isr_video   {
     margin-top: initial !important;
   }
 
   .isr__separator--image {
-    min-height: 360px;
+    min-height: 175px;
   }
 
   body.page-id-8 .header-image img {
