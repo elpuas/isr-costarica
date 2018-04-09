@@ -479,7 +479,9 @@ h2.ISR__subtitle-variation {
   }
 
   .isr__separator--image {
-    min-height: 175px;
+    min-height: 300px;
+    width: 96% !important;
+    left: 20px !important;
   }
 
   body.page-id-8 .header-image img {
