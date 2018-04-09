@@ -428,6 +428,22 @@ body.page-id-8 .navbar-brand img {
   color: var(--footer-font-color) !important;
 }
 
+h2.ISR__subtitle-variation {
+    color: white;
+    background: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.page-id-132 .wpb_content_element h4 {
+    font-size: 1rem;
+    line-height: 2em;
+    color: var(--secondary-color);
+}
+
+
 /**
  * Global Mobile
  * Styles
