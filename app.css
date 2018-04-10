@@ -465,6 +465,12 @@ h2.ISR__subtitle-variation {
     box-shadow: 0 0 2px rgba(0,0,0,.5);
 }
 
+@media screen and (max-width: 325px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .header-image .fade-in-img-inner-wrap {
     margin-top: 0;
