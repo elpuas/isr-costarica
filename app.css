@@ -471,7 +471,7 @@ h2.ISR__subtitle-variation {
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
 
   .page-id-132  .wpb_video_widget.isr_video {
